@@ -1,0 +1,55 @@
+@media only screen and (max-width: 480px){
+	body{
+		background-color: lightgreen;
+	}
+	
+	header
+	{
+		margin-top:10%;
+	}
+	
+	#zadaca
+	{
+		margin-top:10%;
+	}
+	
+	#osobneinf
+	{
+		margin-left:-380%;
+		padding-right:80px;
+		padding-top:180px;
+	}
+	.tekst-pocetna{
+		margin-left:-380%;
+		padding-right:100px;
+		
+	}
+	#slikaPocetna{
+		margin-left:-380%;
+		padding-right:100px;
+	}
+	#zvukPocetna{
+		margin-left:-380%;
+		padding-right:90px;
+	}
+	#galerijaFooter{
+		padding-top:1000px;
+	}
+	
+	
+	.obrazac
+	{		
+	width:100%;
+	}
+	
+	.sakri
+	{
+		display:none;
+	}
+	
+	footer
+	{
+		margin-left:21%;
+	}
+}
+

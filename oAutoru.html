@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>FOI - Web dizajn i programiranje : HTML - Primjer broj 03</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="naslov" content="Početna stranica">
+        <meta name="datum promjene" content="06.03.2018.">
+        <meta name="autor" content="Nikola Bekavac">
+		<link href="css/nbekavac.css" rel="stylesheet" type="text/css">
+		<link href="css/nbekavac_prilagodbe.css" rel="stylesheet" type="text/css">
+    </head>
+
+	<body>
+		<header>
+				<h1 class="zaglavlje">Projekt </h1>	
+				<h2 class="trenutna">Datum: 12.06.2018.</h2>
+				<p style="padding-top:30px">
+                <a  href="prijava.php" class="prijava">Prijava</a><br>
+                <a  href="registracija.php" class="prijava">Registracija</a><br>
+                </p>
+		</header>
+		<nav >
+					<ul>
+						<li><a href="index.php">Početna</a></li>
+						<li><a href="prijava.php">Prijava</a></li>
+						<li><a href="registracija.php">Registracija</a></li>
+					</ul>
+		</nav>
+		<section style = "padding-bottom: 60px; padding-left: 300px ; ">
+			
+			<figure id="slikaPocetna" style="float:left">
+						<img src="slike/nikola.jpeg"  width="150" height="150" alt="ja">
+						
+			</figure>
+			<ol id="osobneinf" style = "float:left">
+					<li>Ime: Nikola</li>
+					<li>Prezime: Bekavac</li>
+					<li>E-mail: nbekavac@foi.hr</li>
+					<li>Broj indeksa: 43963/15-R</li>
+			</ol>
+			<div class="tekst-pocetna">
+					<p>Ovo je pocetna stranica. Sastavljene je od zaglavlja, sadržaja i footera. U zaglavlju se nalazi 
+						ime,datum i slika.</p>
+					<p>Nadalje, u sadržaju se nalazi lista s vezom na ostale tablice, jos jedna slika i podaci o autoru.
+						U footeru se nalaze potrebni validatori. Posjetite ostale stranice.</p>
+				</div>
+			<audio id="zvukPocetna" controls autoplay>
+				<source src="multimedija/primjer.mp3">
+			</audio>
+		</section>
+
+		<footer>
+            <figure style="float:left">
+				<a href="http://validator.w3.org/check?uri=http://barka.foi.hr/WebDiP/2017/zadaca_01/nbekavac/index.html">
+                <img src="multimedija/HTML5.png"  width="70" height="50" />
+				</a>
+                <figcaption>HTML</figcaption>
+            </figure>
+		    <figure style="float:left">
+				<a href="https://jigsaw.w3.org/css-validator/validator?uri=http://barka.foi.hr/WebDiP/2017/zadaca_01/nbekavac/index.html" >
+                <img src="multimedija/CSS3.png"  width="70" height="50"  />
+				</a>
+                <figcaption>CSS3</figcaption>
+            </figure>
+			<h3 class="footer" > Vrijeme rjesavanja: 8 sati </h3>
+		</footer>          
+	</body>
+</html>

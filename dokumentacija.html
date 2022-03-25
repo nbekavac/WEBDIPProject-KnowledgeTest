@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+    <html>
+        <head>
+            <title>FOI - Web dizajn i programiranje : HTML - Primjer broj 03</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="naslov" content="Početna stranica">
+            <meta name="datum promjene" content="06.03.2018.">
+            <meta name="autor" content="Nikola Bekavac">
+            <link href="css/nbekavac.css" rel="stylesheet" type="text/css">
+            <link href="css/nbekavac_prilagodbe.css" rel="stylesheet" type="text/css">
+        </head>
+
+    <body>
+
+
+        <article>
+            <h1 style="text-align:center" id="sadrzaj" >Dokumentacija</h1>
+
+            <br>
+            <br>
+            <br>
+            
+            <section>
+
+        <h2 id="sadrzaj" >Opis projektnog zadatka</h2>
+                <p style="margin-left:30%;margin-right:30%;    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                   Projektni zadatak koji sam trebao realizirat zvao se "Provjera znanja".Projekt je poprilicno kompeksan i zahtjeva izuzetno mnogo vremena za odradit projekt na pravi nacin. Projekt se sastoji od četiri jasno definirane
+                   uloge i ostalih funkcionalnosti kao što su prijava i registracija u sam sustav, rad sustava(straničenje,virtualno vrijeme i slicno). U daljnjem tijeku dokumentacije ću pobliže objasniti kako sam realizirao navedene funkcionalnosti,
+                   koje sam skripte koristio i na koji način sam pristupio rjesavanju projekta. 
+                </p>
+                <h2 id="sadrzaj" >Opis projektnog rjesenja</h2>
+                <p style="margin-left:30%;margin-right:30%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                   Projektno rjesenje mi je bilo poprilicno zahtjevno napravit jer sam se prvi put susretao s izradom kompletnog projekta.U globalu nisam zadovoljan kako sam rijesio 
+                   projektni zadatak. Nisam imao dovoljno vremena za izraditi sve zeljene funkcionalnosti. Tokom izrade projektog rjesenja sam iznimno puno naucio o izradi web stranice i kako 
+                   odredene stvari raditi na pravi nacin. Projektno rjesenje je skup rjesenja svih uloga pridodavsi im funkcionalnosti vezane uz opci rad aplikacije. Detaljniji opis projektnog 
+                   rjesenja cu navesti u skriptama u nastavku dokumentacije jer smatram da ce se citajuci skripte bolje shvatiti nacin izrade projektnog rjesenja.
+                </p>
+                <h2 id="sadrzaj" >Opis skripata</h2>
+                <p style="margin-left:30%;margin-right:30%;    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Skripta baza.class.php sluzi mi za manipulaciju sa bazom podataka. <br>
+                    Skripta nbekavac.css sluzi mi za dizajn projektnog rjesenja bez prilagodbe mediju.<br>
+                    Skripta nbekavac_prilagodbe.css sluzi mi za dizajn projektnog rjesenja vezanu uz prilagodbu mediju. <br>
+                    Skripta nbekavac.js je skripta u kojoj provjeravam registraciju novog korisnika.<br>
+                    Skripta ispisKorisnika.php je skripta zasticena u mapi privatno koja je zasticena .htaccessom,sluzi za ispis korisnika.<br>
+                    Skripta administrator.php sluzi za pregled funkcionalnosti koje ima administrator.<br>
+                    Skripta blokirajKorisnika.php sluzi za blokiranje odredenog korisnika u bazi.<br>
+                    Skripta dodjelaModeratora.php sadrzi tablicni prikaz moderiranja kategorija i sluzi administratoru da dodjeli moderatora odredenoj kategoriji.<br>
+                    Skripta dodjelaModeratora2.php obavlja upis prethodne skripte u bazu.<br>
+                    Skripta index.php je pocetna skripta i sadrzi poveznice na prijavu,registraciju,dokumentaciju i o Autoru i sadrzi pocetni odabir kategorije.<br>
+                    Skripta kreirajKategoriju.php sluzi administratoru da kreira odredenu kategoriju.<br>
+                    Skripta kreirajKategoriju2.php obavlja upis u bazu podataka prethodne skripte. <br>
+                    Skripta kreirajNatjecanje.php sluzi kreiranju natjecanja i odabiru pitanja za to natjecanje.<br>
+                    Skripta logout.php sluzi za odjavu sa servisa i samim time brisanje sesije.<br>
+                    Skripta moderator.php sadrzi popis funkcionalnosti moderatora.<br>
+                    Skripta oAutoru.php sluzi za prikaz podataka o autoru.<br>
+                    Skripta otkljucaj.php obavlja otkljucavanje korisnickog racuna.<br>
+                    Skripta Skripta pitanjaNatjecanje.php sluzi sa prikaz odgovaranje na pitanja iz pojednog natjecanja.<br>
+                    Skripta pitanjaiodgovor.php sluzi moderatoru za unos pitanja i tocnog odgovora za kategoriju za koju je zaduzen.<br>
+                    Skripta popisBlokiranje.php sadrzi popis zahtjeva za blokiranjem oglasa.<br>
+                    Skripta popisBlokiranje2.php obavlja unos u bazu podataka.<br>
+                    Skripta popisKategorija.php sadrzi popis kategorija za koju se definiraju pitanje i tocan odgovor.<br>
+                    Skripta popisKategorija2.php sadrzi popis kategorija za koju se kreira natjecanje.<br>
+                    Skripta popisNepotvrdenih.php sadrzi popis oglasa koji jos uvijek nisu odobreni uz mogucnost izmjene.<br>
+                    Skripta prijava.php sadrzi prijavu u sustav. <br>
+                    Skripta prikazNatjecanja.php sadrzi prikaz natjecanja za odabranu kategoriju.<br>
+                    Skripta provjeraKorisnickogImena.php obavlja provjeru korisnickog imena u bazi.<br>
+                    Skripta provjeraNadimka.php obavlja provjeru nadimka prilikom odgovaranja na pitanja.<br>
+                    Skripta registracija.php sadrzi registraciju na sustav.<br>
+                    Skripta rezultatiNatjecanja.php sadrzi rezultate za odabrano natjecanje.<br>
+                    Skripta urediOglas.php daje mogucnost uredivanja oglasa prije nego sto je isti prihvacen.<br>
+                    Skripta zaboravljenaLozinka.php sluzi u slucaju da korisnik zaboravi lozinku da mu novu izgenerira i posalje na mail.<br>
+                    Skripta zahtjeviBlokiranje sadrzi popis zahtjeva za blokiranje oglasa.<br>
+                    Skripta zahtjevNovi sadrzi popis zahtjeva za novi oglas.<br>
+                
+                    <h2 id="sadrzaj" >Opis koristenih tehnologija i alata</h2>
+                <p style="margin-left:30%;margin-right:30%;    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Za izradu koda za projektno rjesenje sam koristio Visual Studio Code. Alat je iznimno dobar, vrlo lako se nauci i bolji mi je od ostalih alata zbog jednostavnosti
+                    koristenja.Definitivno preporucujem svima za koristenje.<br>
+                    Za izradu baze podataka sam koristio vec unaprijed zadani phpmyadmin. Alat vrlo jednostavan i lagan za upotrebu. Imao sam malo poteskoce u pocecicma, ali sam se ubrzo naviknuo.
+                </p>
+                <h2 id="sadrzaj" >Opis koristenih vanjskih modula</h2>
+                <p style="margin-left:30%;margin-right:30%;    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                   Od vanjskih modula sam koristio .htacces generator za pomoc kreiranja .htaccess datoteke<br>
+                   Takoder sam koristio vrlo korisnu funkciju glob koja mi pomogla kod prikaza slike oglasa. <br> 
+                   Koristio sam i Google reCaptchu kod registracije za provjeru automata. <br>
+
+                </p>
+                <h2 id="sadrzaj" >Navigacijski dijagram</h2>
+                 <img alt="Prikaz nije moguc" style="margin-left:150px;" height="500" width="500"  src="slike/navigacijski.png">
+                <br>
+                
+                <h2 id="sadrzaj" >ERA model</h2>
+
+                <img alt="Prikaz nije moguc" style="margin-left:150px;" height="500" width="500"  src="slike/era1.png">
+                <br>
+                
+            </section>
+
+
+            <footer>
+                <p id="imeprezime">&copy; Nikola Bekavac</p>
+
+            </footer>
+
+        </article>
+    </body>
+</html>

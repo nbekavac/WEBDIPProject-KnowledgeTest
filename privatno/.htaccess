@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Members only"
+AuthUserFile "/var/www/barka.foi.hr/WebDiP/2017_projekti/WebDiP2017x010/privatno/.htpasswd"
+Require valid-user

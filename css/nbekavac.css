@@ -1,0 +1,104 @@
+body {
+	background-image: url('multimedija/hr_logo.jpg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-color: lightblue;
+}
+
+header {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+h1.zaglavlje {
+	text-align: center;
+}
+
+h2.trenutna {
+	float: right;
+	text-align: center;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+div.tekst-pocetna {
+	text-align: center;
+	padding-top: 170px;
+}
+
+h3.footer {
+	text-align: center;
+}
+
+.zoom {
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	-ms-transform: scale(3);
+	/* IE 9 */
+	-webkit-transform: scale(3);
+	/* Safari 3-8 */
+	transform: scale(3);
+}
+
+table, td, th {
+	border: 1px solid red
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table thead {
+	background-color: blue;
+}
+
+.obrazac {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 20px;
+	border-radius: 20px;
+	border: solid 5px saddlebrown;
+	background-color: darkgray;
+}
+
+label {
+	float: left;
+}
+
+input {
+	display: block;
+	margin-left: 160px;
+}
+
+#linkPrijava {
+	margin-left: 160px;
+}
+
+#posaljiObrazac {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#obrazac1 input {
+	display: initial;
+	margin-left: 0px;
+}
+
+#obrazac1 label {
+	float: none;
+}
+
+#tablicaSlika {
+	padding-left: 392px;
+}

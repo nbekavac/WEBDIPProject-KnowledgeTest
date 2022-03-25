@@ -1,0 +1,299 @@
+{
+  "sftp://barka.foi.hr:22@nbekavac": {
+    "var": {
+      "www": {
+        "WebDiP": {
+          "2017_projekti": {
+            "WebDiP2017x010": {
+              "provjeraKorisnika.php": {
+                "type": "-",
+                "size": 805,
+                "lmtime": 1456389634102,
+                "modified": false
+              },
+              "blokirajKorisnika.php": {
+                "type": "-",
+                "size": 348,
+                "lmtime": 1529367866652,
+                "modified": false
+              },
+              "provjeraKorisnickogImena.php": {
+                "type": "-",
+                "size": 648,
+                "lmtime": 1529190063437,
+                "modified": false
+              },
+              "administrator.php": {
+                "type": "-",
+                "size": 2815,
+                "lmtime": 1529367203103,
+                "modified": false
+              },
+              "dnevnik.php": {
+                "type": "-",
+                "size": 613,
+                "lmtime": 1456389346897,
+                "modified": false
+              },
+              "sesija.class.php": {
+                "type": "-",
+                "size": 2656,
+                "lmtime": 1456390343551,
+                "modified": false
+              },
+              "zaboravljenaLozinka.php": {
+                "type": "-",
+                "size": 2384,
+                "lmtime": 0,
+                "modified": false
+              },
+              "autentikacija.php": {
+                "type": "-",
+                "size": 797,
+                "lmtime": 1493012683409,
+                "modified": false
+              },
+              "privatno": {
+                ".htpasswd": {
+                  "type": "-",
+                  "size": 52,
+                  "lmtime": 1529257879447,
+                  "modified": false
+                },
+                "baza.class.php": {
+                  "type": "-",
+                  "size": 2072,
+                  "lmtime": 1527861596122,
+                  "modified": false
+                },
+                ".htaccess": {
+                  "type": "-",
+                  "size": 152,
+                  "lmtime": 1529257873448,
+                  "modified": false
+                },
+                "ispisKorisnika.php": {
+                  "type": "-",
+                  "size": 7400,
+                  "lmtime": 1529358852858,
+                  "modified": false
+                }
+              },
+              "baza.class.php": {
+                "type": "-",
+                "size": 2072,
+                "lmtime": 1527861596122,
+                "modified": false
+              },
+              "pitanjaNatjecanje.php": {
+                "type": "-",
+                "size": 8211,
+                "lmtime": 1529273399877,
+                "modified": false
+              },
+              "adminKorisnici.php": {
+                "type": "-",
+                "size": 13690,
+                "lmtime": 1529368712575,
+                "modified": false
+              },
+              "logout.php": {
+                "type": "-",
+                "size": 329,
+                "lmtime": 1529343703804,
+                "modified": false
+              },
+              "korisnik.php": {
+                "type": "-",
+                "size": 1524,
+                "lmtime": 1493012379109,
+                "modified": false
+              },
+              "galerija.php": {
+                "type": "-",
+                "size": 4154,
+                "lmtime": 1527861595794,
+                "modified": false
+              },
+              "oAutoru.html": {
+                "type": "-",
+                "size": 2731,
+                "lmtime": 0,
+                "modified": false
+              },
+              "otkljucaj.php": {
+                "type": "-",
+                "size": 348,
+                "lmtime": 1529368574695,
+                "modified": false
+              },
+              "index.php": {
+                "type": "-",
+                "size": 5459,
+                "lmtime": 1529343302832,
+                "modified": false
+              },
+              "prijava.php": {
+                "type": "-",
+                "size": 6560,
+                "lmtime": 1529366205744,
+                "modified": false
+              },
+              "moderator.php": {
+                "type": "-",
+                "size": 0,
+                "lmtime": 1529355652722,
+                "modified": false
+              },
+              "provjeraNadimka.php": {
+                "type": "-",
+                "size": 481,
+                "lmtime": 1529274082072,
+                "modified": false
+              },
+              "datalist.txt": {
+                "type": "-",
+                "size": 68,
+                "lmtime": 1527861595751,
+                "modified": false
+              },
+              "aktivacijaEmaila.php": {
+                "type": "-",
+                "size": 1244,
+                "lmtime": 1528409233850,
+                "modified": true
+              },
+              "js": {
+                "nbekavac.js": {
+                  "type": "-",
+                  "size": 4707,
+                  "lmtime": 1529279151478,
+                  "modified": false
+                }
+              },
+              "prikazNatjecanja.php": {
+                "type": "-",
+                "size": 5673,
+                "lmtime": 1529277980578,
+                "modified": false
+              },
+              "tablica.php": {
+                "type": "-",
+                "size": 6437,
+                "lmtime": 1527861596173,
+                "modified": false
+              },
+              "rezultatiNatjecanja.php": {
+                "type": "-",
+                "size": 13110,
+                "lmtime": 1529365901579,
+                "modified": false
+              },
+              "slike": {
+                "blackburn.png": {
+                  "type": "-",
+                  "size": 43253,
+                  "lmtime": 1527861599818,
+                  "modified": false
+                },
+                "HTML5.png": {
+                  "type": "-",
+                  "size": 4144,
+                  "lmtime": 1527861599671,
+                  "modified": false
+                },
+                "arsenal.png": {
+                  "type": "-",
+                  "size": 183213,
+                  "lmtime": 1527861599616,
+                  "modified": false
+                },
+                "tottenham.png": {
+                  "type": "-",
+                  "size": 14482,
+                  "lmtime": 1527861599534,
+                  "modified": false
+                },
+                "mancity.png": {
+                  "type": "-",
+                  "size": 44733,
+                  "lmtime": 1527861599495,
+                  "modified": false
+                },
+                "chelsea.jpg": {
+                  "type": "-",
+                  "size": 74541,
+                  "lmtime": 1527861599451,
+                  "modified": false
+                },
+                "CSS3.png": {
+                  "type": "-",
+                  "size": 7957,
+                  "lmtime": 1527861599374,
+                  "modified": false
+                },
+                "manutd.png": {
+                  "type": "-",
+                  "size": 51361,
+                  "lmtime": 1527861599319,
+                  "modified": false
+                },
+                "bolton.png": {
+                  "type": "-",
+                  "size": 11490,
+                  "lmtime": 1527861599256,
+                  "modified": false
+                }
+              },
+              "css": {
+                "nbekavac_prilagodbe.css": {
+                  "type": "-",
+                  "size": 632,
+                  "lmtime": 1527697518448,
+                  "modified": false
+                },
+                "nbekavac.css": {
+                  "type": "-",
+                  "size": 1404,
+                  "lmtime": 1527861601684,
+                  "modified": false
+                }
+              },
+              "aplikacijskiOkvir.php": {
+                "type": "-",
+                "size": 301,
+                "lmtime": 1529343390038,
+                "modified": false
+              },
+              "registracija.php": {
+                "type": "-",
+                "size": 10485,
+                "lmtime": 1529271768387,
+                "modified": false
+              },
+              "registrirani.php": {
+                "type": "-",
+                "size": 3090,
+                "lmtime": 1529355121771,
+                "modified": false
+              },
+              "obradaPogresaka.php": {
+                "type": "-",
+                "size": 350,
+                "lmtime": 1367776352810,
+                "modified": false
+              },
+              "obrazac.php": {
+                "type": "-",
+                "size": 11092,
+                "lmtime": 1527861595846,
+                "modified": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}
