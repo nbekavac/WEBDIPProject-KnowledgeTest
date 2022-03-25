@@ -4,7 +4,6 @@
  <br>
  Main requirements :
  <ul>
-<li></li>
 <li>Login/Registration</li>
 <li>Sessions managment</li>
 <li>Authentication</li>
