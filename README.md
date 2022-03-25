@@ -1,6 +1,6 @@
 # WEBDIPProject-KnowledgeTest
   
- Project for college purposes (05/2019). App that allows users to test knowledge.\
+ Project for college purposes (05/2018). App that allows users to test knowledge.\
  <br>
  Main requirements :
  <ul>
